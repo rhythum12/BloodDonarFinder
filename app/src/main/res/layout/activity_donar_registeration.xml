@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/backdesign"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".DonarRegisteration">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Donor Registration Form"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFC107"
+        android:textSize="25dp"
+        android:paddingLeft="40dp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Full Name"
+        android:textSize="20dp"
+
+        />
+    <EditText
+        android:id="@+id/fullname"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/editdesign"
+        android:hint="Enter your full name"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Address"
+        android:textSize="20dp"
+
+        />
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/editdesign"
+        android:hint="enter your address"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Contact Number"
+        android:textSize="20dp"
+
+        />
+    <EditText
+        android:id="@+id/connumber"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/editdesign"
+        android:hint="enter your contact number"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Age"
+        android:textSize="20dp"
+
+        />
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/editdesign"
+        android:hint="enter your age"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Blood Group"
+        android:textSize="20dp"/>
+    <Spinner
+        android:id="@+id/BloodGroup"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/editdesign"
+        android:entries="@array/bloodgroup" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Last Donation Date"
+        android:textSize="20dp"
+        />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/editdesign"
+                    android:id="@+id/date"
+                    android:entries="@array/date">
+
+                </Spinner>
+            </LinearLayout>
+
+    <Button
+        android:id="@+id/done"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="150dp"
+        android:background="@drawable/editdesign"
+        android:layout_height="wrap_content"
+        android:text="Done" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

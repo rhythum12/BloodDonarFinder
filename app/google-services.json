@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "792502346923",
+    "firebase_url": "https://blloddonation-c4dff.firebaseio.com",
+    "project_id": "blloddonation-c4dff",
+    "storage_bucket": "blloddonation-c4dff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792502346923:android:147284fc9c1296c3acc3ee",
+        "android_client_info": {
+          "package_name": "com.myapp.blooddonarfinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "792502346923-3ns9us010oej2t25lia3nojs1s0o3n6p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBP-hl-qTHw9vT2puOZ0gLbpNFMWkidq5o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "792502346923-3ns9us010oej2t25lia3nojs1s0o3n6p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
